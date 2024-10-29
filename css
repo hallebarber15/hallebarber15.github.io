@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFF5E1; /* Cream background */
+    font-family: 'Arial', sans-serif; /* More professional font */
+    text-align: center;
+}
+
+/* Styling for the name */
+#name {
+    font-family: 'Baloo 2', cursive; /* Bubble font */
+    font-size: 8em; /* Large size for the name */
+    color: #D23860; /* Bright pink */
+    margin: 20px 0; /* Adjust space around the name */
+    letter-spacing: 2px; /* Add spacing between letters */
+}
+
+/* Styling for the tagline */
+#tagline {
+    font-size: 0.3em; /* Slightly bigger tagline font */
+    color: #ff6f91; /* Lighter pink for the tagline */
+    font-family: 'Arial', sans-serif;
+    margin-top: 10px; /* Small spacing between name and tagline */
+    font-style: italic; /* Italicize tagline */
+}
+
+/* Navigation Links */
+nav {
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block; /* Display items inline */
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #D23860; /* Darker pink for links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6f91; /* Lighter pink on hover */
+}
+
+/* Section Styling */
+section {
+    background-color: #fff0f5; /* Very light pink for sections */
+    border-radius: 15px;
+    padding: 25px;
+    width: 85%;
+    max-width: 650px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-bottom: 40px;
+    transform: skew(0); /* Remove the skew for a cleaner look */
+}
+
+/* Centering text in sections */
+h2, p {
+    color: #D23860; /* Dark pink text */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Projects Section */
+section#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#projects li {
+    margin: 15px 0; /* Add space between projects */
+}
+
+section#projects h3 {
+    color: #D23860;
+    font-size: 1.7em;
+}
+
+section#projects p {
+    color: #ff69b4; /* Light pink for project descriptions */
+    text-align: left;
+    margin-left: 10px; /* Add margin for readability */
+}
+
+/* About Section */
+section#about ul li {
+    margin: 15px 0;
+    padding-left: 25px;
+    position: relative;
+    color: #D23860;
+}
+
+section#about ul li:before {
+    content: '•';
+    color: #ff69b4; /* Light pink bullet */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5em;
+}
+
+/* Contact Section */
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+section a {
+    text-decoration: none;
+    color: #D23860;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+section a:hover {
+    color: #ff6f91;
+}
+
+/* Icon styling */
+section a i {
+    margin-right: 5px;
+    font-size: 1.4em;
+}
